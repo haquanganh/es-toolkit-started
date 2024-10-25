@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // Target modern JavaScript versions
+    "module": "ESNext", // Set the module system to ESNext
+    "moduleResolution": "node", // Resolve modules like Node.js
+    "esModuleInterop": true, // Enable compatibility with CommonJS
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["./*.ts"],
+  "exclude": ["node_modules"]
+}
